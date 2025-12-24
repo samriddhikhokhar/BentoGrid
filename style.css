@@ -1,8 +1,7 @@
-/* --- 1. SETUP & VARIABLES --- */
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
         :root {
-            /* Palette extracted from the image */
+            
             --bg-cream: #FFF9F2;
             --brand-blue: #3E5C76;
             --brand-peach: #FFD3C4;
@@ -49,7 +48,6 @@
             gap: 10px;
         }
         
-        /* Mimicking the 'M' logo shape with CSS */
         .logo-mark {
             width: 30px;
             height: 30px;
@@ -129,7 +127,6 @@
             justify-content: flex-end;
         }
 
-        /* Hover Effect requested */
         .card:hover {
             transform: translateY(-8px) scale(1.01);
             box-shadow: 0 20px 30px rgba(62, 92, 118, 0.2);
@@ -165,9 +162,6 @@
             margin-bottom: 5px;
         }
 
-        /* Specific Card Styles based on Image Layout */
-
-        /* Large Card (Top Left style) */
         .card-1 {
             grid-column: span 2;
             background-color: var(--brand-peach);
@@ -180,32 +174,24 @@
             text-align: center;
             color: var(--brand-blue);
         }
-        .card-1 .big-logo {
-            font-size: 5rem;
-            line-height: 1;
-        }
-
-        /* Tall Card (Right side style) */
+        
         .card-2 {
             grid-column: span 1;
             grid-row: span 2;
             background-color: var(--brand-coral);
         }
 
-        /* Wide Card (Bottom Left style) */
         .card-3 {
             grid-column: span 2;
             background-color: var(--brand-blue);
         }
 
-        /* Small Card (Center style) */
         .card-4 {
             grid-column: span 1;
             background-color: var(--white);
             border: 2px solid var(--brand-peach);
         }
 
-        /* Badge Card (Bottom Right style) */
         .card-5 {
             grid-column: span 1;
             background-color: var(--brand-peach);
@@ -214,18 +200,18 @@
             justify-content: center;
         }
 
-        /* Circular text badge simulation */
+        /* Circular text badge */
         .badge {
             width: 150px;
             height: 150px;
-            border: 2px dashed var(--white);
+            border: 2px dashed var(--brand-blue);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             font-weight: bold;
-            color: var(--white);
+            color: var(--brand-blue);
             transform: rotate(-15deg);
             z-index: 2;
         }

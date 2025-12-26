@@ -27,7 +27,7 @@
         html, body, * {
             -ms-overflow-style: none; 
             scrollbar-width: none; 
-    
+        }
         /* --- 2. NAVBAR --- */
         nav {
             display: flex;
@@ -305,7 +305,7 @@
         .footer-links a:hover {
             color: var(--brand-coral);
         }
-        
+
         .footer-bottom {
             font-size: 0.9rem;
             opacity: 0.8;

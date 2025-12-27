@@ -28,7 +28,7 @@
             -ms-overflow-style: none; 
             scrollbar-width: none; 
         }
-        /* --- 2. NAVBAR --- */
+
         nav {
             display: flex;
             justify-content: space-between;
@@ -85,7 +85,6 @@
             background-color: var(--brand-coral);
         }
 
-        /* --- 3. HERO & GRID LAYOUT --- */
         main {
             max-width: 1200px;
             margin: 2rem auto;
@@ -110,7 +109,6 @@
             font-weight: 600;
         }
 
-        /* THE BENTO GRID */
         .bento-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -118,7 +116,6 @@
             gap: 20px;
         }
 
-        /* --- 4. CARD STYLING --- */
         .card {
             border-radius: var(--radius);
             overflow: hidden;
@@ -204,7 +201,6 @@
             justify-content: center;
         }
 
-        /* Circular text badge */
         .badge {
             width: 150px;
             height: 150px;
@@ -220,7 +216,6 @@
             z-index: 2;
         }
 
-        /* --- 5. RESPONSIVE --- */
         @media (max-width: 768px) {
             
             nav {
@@ -282,7 +277,6 @@
             }
         }
         
-        /* --- 6. FOOTER --- */
         footer {
             background-color: var(--brand-blue);
             color: var(--white);

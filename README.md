@@ -31,7 +31,7 @@ Accent: #E88D83
 
 🚀**Live Demo**
 
-🔗**[view live website](https://samriddhikhokhar.github.io/BentoGrid/)**
+🔗 **[View Live Website](https://samriddhikhokhar.github.io/BentoGrid/)**
 
 📂**Purpose**
 
